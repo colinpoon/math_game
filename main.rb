@@ -4,7 +4,7 @@ require './players.rb'
 
 # print "hello"
 print "Player 1, choose a nickname -> \n"
-p1 = = $stdin.gets.chomp
+p1 = $stdin.gets.chomp
 print "Welcome, #{p1}!\n"
 print "Player 2, choose a nickname -> \n"
 p2 = $stdin.gets.chomp
