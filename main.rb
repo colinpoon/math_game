@@ -13,3 +13,7 @@ print "Welcome, #{p2}!\n"
 new_game = Game.new(p1, p2)
 
 new_game.start
+
+
+#  COLOR THE TEXT FOR P1 & P2
+# https://stackoverflow.com/questions/1489183/how-can-i-use-ruby-to-colorize-the-text-output-to-a-terminal
