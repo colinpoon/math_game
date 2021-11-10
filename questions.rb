@@ -9,7 +9,7 @@ class Question
   end
 
   def display_question
-    puts "what is the sum of #{@num_one} + #{@num_two}?\n..."
+    puts "What is the sum of #{@num_one} + #{@num_two}?\n..."
     player_answer = gets.chomp.to_i
     if player_answer == @sum
       puts "CORRECT! #{@num_one} + #{@num_two} = #{@sum}"
@@ -19,16 +19,6 @@ class Question
     end
   end
 end
-
-
-
-
-
-
-
-
-
-
 
 # puts "whats the @sum of #{@num_one} + #{@num_two}?"
 
