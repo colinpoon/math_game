@@ -21,10 +21,8 @@ class Question
 end
 
 # puts "whats the @sum of #{@num_one} + #{@num_two}?"
-
 # player_answer = gets.chomp.to_i
 # # player_answer = $stdin.gets.chomp.to_i
-
 # if player_answer == @sum
 #   puts "CORRECT! #{@num_one} + #{@num_two} = #{@sum}"
 # else
