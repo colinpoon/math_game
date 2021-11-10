@@ -4,11 +4,11 @@ class Player
     @name = name
     @lives = 3
   end
-  def total_lives
+  def round_loss
     @lives -= 1
   end
 end
-puts Player.new("blue")
-# "Player name is blue"
-puts Player.new("white")
-# "Player name is white"
+# puts Player.new("blue")
+# # "Player name is blue"
+# puts Player.new("white")
+# # "Player name is white"
